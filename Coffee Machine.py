@@ -86,7 +86,6 @@ while process_is_on:
     elif user_choice == 'report':
         print(f" Water: {resources['water']} \n Coffee: {resources['coffee']}\n "
               f"Milk: {resources['milk']} \n Money: {profit}")
-        process_is_on = False
     else:
         drink = MENU[user_choice]
         if check_resources_foo(drink["ingredients"]):
